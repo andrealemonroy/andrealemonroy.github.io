@@ -1,0 +1,26 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "ember-cli-materialize": "^0.22.0-beta.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "materialize-social": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrealemonroy/Portafolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrealemonroy/Portafolio/issues"
+  },
+  "homepage": "https://github.com/andrealemonroy/Portafolio#readme"
+}

@@ -5,153 +5,64 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Andrea Monroy</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <header>
-    <img class="card-img" id="headerImg" src="./yoViajeDos.jpg" alt="image">
-    <!-- <div class="middle"> -->
-    <div class="card-img-overlay">
-      <h5 class="card-title text-center">Hola! Mi nombre es Andrea Monroy</h5>
-      <p class="card-text text-center">Soy Front-end developer</p>
+
+  <!-- <div class="preloader-background">
+    <div class="preloader-wrapper">
+      <div class="spinner"></div>
+    </div>
+  </div> -->
+
+  <div class="banner">
+    <div class="trigger">
+
+      <div class="box"></div>
+      <div class="trigger">
+
+        <div class="box"></div>
+
+      </div>
     </div>
 
-    </div>
+    <section class="container">
+      <h1>
+        <span class="title">Hola, mi nombre es</span>
+        <span class="title">Andrea Monroy y</span>
+        <span class="title">soy Front-end developer</span>
+      </h1>
 
-  </header>
-  <nav id="sideLeftNav">
-    <!-- <a href="#home" class="logo page-scroll waves-effect">Men&uacute;</a> -->
+    </section>
+    <a href="./pages/portafolio.html" class="waves-effect waves-light btn" id="portafolio">MI PORTAFOLIO</a>
 
-    <a href="#aboutMeSection" id="aboutMe"><i class="fa fa-fw fa-user"></i><span>Sobre
-        mí</span></a>
+  </div>
+  
+  <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+      AM
+    </a>
+    <ul>
 
+      <li><a href="./pages/aboutMe.html" class="btn-floating red"><i class="material-icons">person</i></a></li>
+      <li><a href="./pages/contact.html" class="btn-floating yellow darken-1"><i class="material-icons">phone</i></a></li>
+      <li><a href="./index.html" class="btn-floating green"><i class="material-icons">home</i></a></li>
 
-    <a href="#portfolio" id="proyectsNav"><i class="fa fa-fw fa-bell-o"></i><span>Mis
-        proyectos</span></a>
+    </ul>
+  </div>
+  </div>
 
-    <a href="#contactSection" id="contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contáctame</span></a>
-  </nav>
-
-
-
-
-  <section id="aboutMeSection">
-    <div class="flip-box rounded-circle rounded mx-auto d-block">
-      <div class="flip-box-inner rounded-circle rounded mx-auto d-block">
-        <div class="flip-box-front rounded-circle rounded mx-auto d-block">
-          <img class="rounded-circle rounded mx-auto d-block" id="meTravel" src="./yoViaje.jpg" alt="image">
-        </div>
-        <div class="flip-box-back rounded-circle rounded mx-auto d-block">
-          <img class="rounded-circle rounded mx-auto d-block" id="startup" src="./startupWeekend.jpg">
-        </div>
-      </div>
-    </div>
-    <h5 class="card-title text-center">Andrea Monroy</h5>
-    <p class="card-text text-center">Soy Front-end developer y cada día trabajo en mí para ser la mejor programadora que sé que puedo ser! <br>Me encanta codear y tocar música, ambas las aprendí por mi cuenta, por <br>eso me consideo autodidácta y soy muy curiosa, siempre quiero aprender más!</p>
-    <!-- <div class="card bg-white text-black">
-      <img class="card-img" src="./fondoFijo.png" alt="Card image">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Andrea Monroy</h5>
-        <p class="card-text">Front-end developer</p>
-      </div>
-    </div> -->
-  </section>
-
-  <section id="portfolio">
-    <div class="section-title text-center">
-      <h2>Proyectos</h2>
-      <p>Aquí mis proyectos realizados</p>
-    </div>
-
-    <div class="card-group">
-
-      <div class="card" style="width: 18rem;">
-        <img class="imageProyect card-img" src="cipher.PNG" alt="cipher">
-        <div class="card-body">
-          <h5 class="card-title">Cifrado César!</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Proyecto1</h6>
-          <p class="card-text">Esto sirve para encriptar y desencriptar mensajes!</p>
-          <a href="https://andrealemonroy.github.io/lim-2018-05-bc-core-am-cipher/src/" class="card-link" target="_blank">
-            Entrar</a>
-        </div>
-      </div>
-
-
-
-
-      <div class="card float-right" style="width: 18rem;">
-        <img class="imageProyect card-img" src="./dashboard.PNG" alt="dashboard">
-        <div class="card-body">
-          <h5 class="card-title">Data Dashboard</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Proyecto 2</h6>
-          <p class="card-text">Permite ver porcentaje de avances de lecturas, promedios de las
-            alumnas de
-            Laboratoria
-            2018-1</p>
-          <a href="https://andrealemonroy.github.io/lim-2018-05-bc-core-am-datadashboard/src/" class="card-link" target="_blank">
-            Entrar</a>
-        </div>
-      </div>
-
-
-
-
-
-      <div class="card float-right" style="width: 18rem;">
-        <img class="imageProyect card-img" src="socialnetwork.PNG" alt="socialNetwork">
-        <div class="card-body">
-          <h5 class="card-title">Social Network</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Proyecto 3</h6>
-          <p class="card-text">Red Social basada en alimentación</p>
-          <a href="https://andrealemonroy.github.io/lim-2018-05-bc-core-am-socialnetwork/src/." class="card-link"
-            target="_blank">
-            Entrar
-          </a>
-        </div>
-      </div>
-
-
-
-      <!-- <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">FoodMap</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Proyecto 4</h6>
-        <p class="card-text">Encontrar restaurantes/filtrarlos</p>
-        <a href="https://andrealemonroy.github.io/lim-2018-01-foodmap/" class="card-link" target="_blank">
-          Entrar
-        </a>
-      </div>
-    </div> -->
-    </div>
-
-  </section>
-
-<section id="contactSection">
-    <p>Contáctame aquí</p>
-    <a href="https://www.linkedin.com/in/andrealemonroy/"><i class="fa fa-linkedin"></i>LinkedIn</a> 
-    <a href="https://github.com/andrealemonroy"><i class="fab fa-github"></i>Github</a>
-  </section>
-
-
-  <!-- <div id="sideLeftNav" class="sidebar">
-          <a href="#" id="aboutMe">Sobre mí</a>
-          <a href="#proyectsNav" id="proyectsNav">Proyectos</a>
-        </div>
-
-        <div class="container" id="proyects">
-
-        </div> -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+  <script src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script> -->
 
 </body>
 
