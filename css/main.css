@@ -22,25 +22,37 @@
   left: 0;
   right: 0;
   bottom: 0; }
+  .contact a {
+    top: 0; }
 
-.slogan {
-  font-family: 'Righteous', cursive;
-  background-color: rgba(255, 255, 255, 0.3);
+.banner {
+  height: 100vh; }
+
+.aboutMe {
+  background-color: #e7c83f;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.story {
   position: absolute;
-  border: 4px solid black;
-  top: 150px;
-  left: 25%;
-  width: 50%;
-  height: 300px;
-  text-align: center; }
-  .slogan .span {
-    font-size: 25px; }
-    @media (min-width: 800px) {
-      .slogan .span {
-        font-size: 30px; } }
-    @media (min-width: 1200px) {
-      .slogan .span {
-        font-size: 40px; } }
+  top: 20%;
+  width: 100%;
+  height: 40%;
+  line-height: 165%; }
+
+#portafolio {
+  background: red;
+  left: 40%;
+  position: fixed;
+  font-size: auto;
+  padding: 3%; }
+
+.trigger.clicked .box {
+  transform: translate(200px, 150px) rotate(20deg); }
 
 .spinner {
   width: 100px;
@@ -83,10 +95,21 @@ html {
 
 body {
   font-family: 'Fjalla One', sans-serif;
-  background: linear-gradient(to bottom, #405166 0%, #656f6f 100%); }
+  background: linear-gradient(to bottom, #dcf30d 0%, #eee489 100%); }
 
 .container {
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -43%);
+  top: 60%;
+  left: 55%;
+  display: block;
+  position: absolute;
+  max-width: 225px;
+  margin-top: 10px; }
+  .container .span {
+    left: 45%; }
+
+.name {
+  transform: translate(-50%, -43%);
   top: 50%;
   left: 50%;
   display: block;
