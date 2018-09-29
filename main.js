@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     .delay(700)
     .fadeOut();
 });
-$('.trigger').on('click', function(){
-  $(this).toggleClass('clicked');
-})
+// $('.trigger').on('click', function(){
+//   $(this).toggleClass('clicked');
+// })
+$(document).ready(function(){
+  $('.carousel').carousel();
+});

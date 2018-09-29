@@ -1,23 +1,6 @@
 $translucent-white: rgba(255, 255, 255, 0.3);
 $icon-square-length: 150px;
-// $breakpoints: (phone: 640px, 
-//                tablet: 768px, 
-//                desktop: 1024px) !default;
 
-
-// @import url(https://fonts.googleapis.com/css?family=Pacifico);
-
-// h1 {
-//     font-family: Roboto, sans-serif;
-//     text-align: center;
-
-//     span {
-//         font-family: 'Pacifico', cursive;
-//         font-size: 2rem;
-//         margin-top: 0;
-//         // line-height: -15px;
-//     }
-// }
 
 .preloader-background {
     display: flex;
@@ -33,11 +16,24 @@ $icon-square-length: 150px;
     bottom: 0;
 }
 
+.banner {
+    height: 100vh;
+}
+
+.name {
+    transform: translate(-50%, -43%);
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    max-width: 225px;
+}
+
 .contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(51, 39, 39);
+    background-color: rgb(139, 103, 103);
 
     position: fixed;
     z-index: 100;
@@ -45,50 +41,21 @@ $icon-square-length: 150px;
     left: 0;
     right: 0;
     bottom: 0;
-    a{
-        top:0;
+
+    a {
+        top: 0;
+    }
+
+    i {
+        left: -5%;
     }
 }
 
-.banner {
-    // font-family: 'Comfortaa', cursive;
-    height: 100vh;
-    // background-color:rgb(233, 66, 94);
-
-    // .trigger {
-    //     width: 200px;
-    //     height: 200px;
-    //     border: 20px solid #999;
-    //     background: #ddd
-    // }
-
-    // .box {
-    //     display: inline-block;
-    //     width: 200px;
-    //     height: 200px;
-    //     background: pink;
-    //     padding: 50px;
-    //     transition: transform 300ms cubic-bezier(0, 0.47, 0.32, 1.97);
-    //     pointer-events: none;
-    //     // transform: translate(200px, 150px) rotate(20deg)
-    // }
 
 
-    //     .span {
-    //         padding: 10px;
-    //     }
-    // }
-
-    // margin-top:180px;
-    // font-size: 1.7rem;
-    // line-height: responsive 1.4 1.8;
-
-
-}
-
-.aboutMe{
+.aboutMe {
     // display: flex;
-    background-color: rgb(231, 200, 63);
+    background-color: rgb(248, 215, 66);
 
     position: fixed;
     z-index: 100;
@@ -96,17 +63,32 @@ $icon-square-length: 150px;
     left: 0;
     right: 0;
     bottom: 0;
+
+    h1 {
+        margin-top: 8%;
+        margin-left: 1%;
+    }
 }
+
+// .carousel {
+//     position: relative;
+//     width: 60%;
+//     left: 50%;
+//     .carousel-item{
+//         width: 50%;
+//         height: 50%;
+//     }
+
+// }
+
 .story {
 
-    // background-color: $translucent-white;
     position: absolute;
-    // border: 1px solid black;
+    margin-top: 5%;
     top: 20%;
     width: 100%;
     height: 40%;
     line-height: 165%;
-    // margin-left: 5px;
 }
 
 
@@ -116,15 +98,9 @@ $icon-square-length: 150px;
     left: 40%;
     position: fixed;
     font-size: auto;
-    // margin-top: 38%;
     padding: 3%;
 }
 
-// }
-
-.trigger.clicked .box {
-    transform: translate(200px, 150px) rotate(20deg)
-}
 
 .spinner {
     width: 100px;
@@ -132,7 +108,6 @@ $icon-square-length: 150px;
     background: #eeeeee;
     border-radius: 50%;
     position: relative;
-    // margin: 50px;
     display: inline-block;
 
     &:after,
@@ -146,11 +121,6 @@ $icon-square-length: 150px;
     }
 }
 
-.spinner:before {
-    padding: 20%;
-    margin-left: 10%;
-    margin-top: 15%;
-}
 
 .spinner:after {
     position: absolute;
@@ -180,29 +150,13 @@ $icon-square-length: 150px;
 
 
 
-// .container {
-//     text-align: center;
-//     font-family: 'Pacifico', cursive;
-
-//     .icon {
-//         display: inline-block;
-//         margin: 2%;
-//         border: 4px solid black;
-//         font-size: auto;
-
-//         .card-image {
-//             height: 100%;
-//         }
-//     }
-
-// }
 
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-$background: linear-gradient(to bottom, #dcf30d 0%, #eee489 100%);
+$background: linear-gradient(to bottom, #dcf30d 0%, #f1e042 100%);
 $red: #e55643;
 $green: #2b9f5e;
-$yellow: #f1c83c;
+$yellow: #f1843c;
 $shadow: #533d4a;
 
 html {
@@ -221,38 +175,13 @@ body {
     display: block;
     position: absolute;
     max-width: 225px;
-    margin-top:10px;
-    .span{
+    margin-top: 10px;
+
+    .span {
         left: 45%;
     }
 }
-.name{
-    transform: translate(-50%, -43%);
-    top: 50%;
-    left: 50%;
-    display: block;
-    position: absolute;
-    max-width: 225px;
-}
-.button {
-    float: left;
-    position: relative;
-    bottom: -65px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-10deg);
-    color: $red;
-    text-transform: uppercase;
-    opacity: 0;
-    visibility: hidden;
-    cursor: pointer;
 
-    span {
-        transform: skew(-10deg);
-        display: block;
-        float: left;
-        text-shadow: $shadow 1px 1px, $shadow 2px 2px, $shadow 3px 3px, $shadow 4px 4px;
-    }
-}
 
 h1 {
     color: #fff;
