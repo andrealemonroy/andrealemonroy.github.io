@@ -29,21 +29,21 @@ $icon-square-length: 150px;
     max-width: 225px;
 }
 
-.contact {
+// .contact {
 
-    background-color: rgb(139, 103, 103);
+//     background-color: rgb(139, 103, 103);
 
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+//     position: fixed;
+//     z-index: 100;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
 
-    i {
-        left: -5%;
-    }
-}
+//     i {
+//         left: -5%;
+//     }
+// }
 
 
 
@@ -89,7 +89,7 @@ $icon-square-length: 150px;
 #portafolio {
     background: red;
     // left: 40%;
-    // position: fixed;
+    position: fixed;
     font-size: auto;
     padding: 3%;
 }
@@ -168,9 +168,9 @@ body {
     // position: absolute;
     // display: flex;
 
-        text-align: center;
-        // justify-content: center;
-margin-top:15%;
+    text-align: center;
+    // justify-content: center;
+    margin-top: 15%;
 
     // max-width: 50%;
 

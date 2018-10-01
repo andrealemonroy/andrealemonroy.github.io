@@ -22,17 +22,6 @@
   position: absolute;
   max-width: 225px; }
 
-.contact {
-  background-color: #8b6767;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
-  .contact i {
-    left: -5%; }
-
 .carousel {
   position: relative;
   left: 50%; }
@@ -45,6 +34,7 @@
 
 #portafolio {
   background: red;
+  position: fixed;
   font-size: auto;
   padding: 3%; }
 
